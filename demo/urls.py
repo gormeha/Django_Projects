@@ -19,5 +19,5 @@ from basic import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('basic/', views.index, name='index')
+    path('', views.index, name='index')
 ]
